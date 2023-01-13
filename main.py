@@ -2,7 +2,6 @@
 import random
 class SnakeNLadder:
 
-# UC2 : The Player rolls the die to get a number between 1 to 6.
 
 	def start_game(self):
 		player1 = 0
