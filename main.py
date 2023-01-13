@@ -1,10 +1,14 @@
+
+import random
 class SnakeNLadder:
 
-# UC1 : snake and ladder game played with single player at start position 0
+# UC2 : The Player rolls the die to get a number between 1 to 6.
 
-	 def start_game(self):
-		 self.player1 = 0
-		 print("Start Position Of Player1 :", self.player1)
+	def start_game(self):
+		player1 = 0
+		roll_die = random.randint(1, 6)
+		print("Start Position Of Player1 :", player1)
+		print("Player roll die : ", roll_die)
 
 print("Welcome to Snake and Ladder..!")
 uc1 = SnakeNLadder()
